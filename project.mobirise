@@ -51,27 +51,41 @@
     "imageResize": true,
     "site_lang": "pt-br",
     "favicon": "@PROJECT_PATH@/assets/images/amave-icone-128x128.png",
-    "mbrsiteDomain": "ma7dcqmhn9",
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
+    "mbrsiteDomain": "a2sdqanps9",
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://amave.shop",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#f90016",
+      "colorLink": "#f90016",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "Usamos cookies para lhe proporcionar a melhor experiência.  Ao continuar, você concorda com nossos <a href='https://app.amave.shop/politica-de-privacidade/'> Termos e Política de Privacidade</a>.",
+      "textButton": "Ok. Continuar"
+    },
     "gdpr": false,
     "uniqCompNum": 9,
     "versionPublish": "5.5.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "global_header_custom": "<meta name=\"theme-color\" content=\"#F90016\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#F90016\">\n<meta name=\"msapplication-navbutton-color\" content=\"#F90016\"><meta name=\"viewport\"/>\n<script src=\"//code-sa1.jivosite.com/widget/PBBd1py9mH\" async></script>\n",
+    "global_before_html": "<!-- Criado e desenvolvido por MAVE RED STUDIOS -- Marketing e Mídia - Goiânia - GO BRASIL - 62 4101 2203, https://maveredstudios.com -->"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Amave Secrets Loja AMAVE SHOP - Roupas Femininas Acessórios e muito mais",
-        "meta_descr": "",
-        "header_custom": "",
+        "title": "Amave Secrets em AMAVE SHOP - Roupas Femininas Acessórios e muito mais",
+        "meta_descr": "Loja AMAVE SECRETS em AMAVE SHOP. Compre agora roupas femininas e acessórios com entrega grátis para Goiânia e Aparecida de Goiânia - GO. Pague na entrega, disponível para Goiânia e Aparecida de Goiânia. Moda e Design.",
+        "header_custom": "<meta name=\"theme-color\" content=\"#F90016\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#F90016\">\n<meta name=\"msapplication-navbutton-color\" content=\"#F90016\"><meta name=\"viewport\"/>\n<script src=\"//code-sa1.jivosite.com/widget/PBBd1py9mH\" async></script>\n",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/cod-001-conjunto-blusa-organza-top-short-24-1080x1620.jpg"
+        "html_before": "<!-- Criado e desenvolvido por MAVE RED STUDIOS -- Marketing e Mídia - Goiânia - GO BRASIL - 62 4101 2203, https://maveredstudios.com -->",
+        "meta_image": "@PROJECT_PATH@/assets/images/image-site-1080x1620.jpg"
       },
       "components": [
         {
